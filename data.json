@@ -2,19 +2,73 @@
     "Game1": {
         "title": "EMBARQUE Y DESEMBARQUE EN HELICÓPTERO",
         "simutator": "#",
-        "description": "<p><strong>Asignatura:</strong> Gestión de recursos de emergencias y protección civil.</p>\\n<p><strong>Unidad:</strong> Planificación y supervisión del mantenimiento de equipos, medios técnicos e instalaciones.</p>\\n<p><strong>Duración aproximada:</strong> 10 minutos.</p>\\n<p><strong>Dificultad:</strong> Fácil.</p>",
+        "description": "<p><strong>Asignatura:</strong> Gestión de recursos de emergencias y protección civil.</p>\n<p><strong>Unidad:</strong> Planificación y supervisión del mantenimiento de equipos, medios técnicos e instalaciones.</p>\n<p><strong>Duración aproximada:</strong> 10 minutos.</p>\n<p><strong>Dificultad:</strong> Fácil.</p>",
         "carrusel": [
-            "img/InterfazHome/HomeButton0.png",
-            "img/InterfazHome/HomeButton1.png",
-            "img/InterfazHome/HomeButton2.png",
-            "img/InterfazHome/HomeButton3.png",
-            "img/InterfazHome/HomeButton4.png",
-            "img/InterfazHome/HomeButton5.png"
+            "img/InterfazGame/Miniaturas/Embarque/Embarque0.png",
+            "img/InterfazGame/Miniaturas/Embarque/Embarque1.png",
+            "img/InterfazGame/Miniaturas/Embarque/Embarque2.png",
+            "img/InterfazGame/Miniaturas/Embarque/Embarque3.png",
+            "img/InterfazGame/Miniaturas/Embarque/Embarque4.png"
         ]
     },
-    "Game2": {},
-    "Game3": {},
-    "Game4": {},
-    "Game5": {},
-    "Game6": {}
+    "Game2": {
+        "title": "PROTOCOLO ANTE UNA HEMORRAGIA EXTERNA",
+        "simutator": "#",
+        "description": "<p><strong>Asignatura:</strong> Gestión de recursos de emergencias y protección civil.</p>\n<p><strong>Unidad:</strong> Planificación y supervisión del mantenimiento de equipos, medios técnicos e instalaciones.</p>\n<p><strong>Duración aproximada:</strong> 10 minutos.</p>\n<p><strong>Dificultad:</strong> Fácil.</p>",
+        "carrusel": [
+            "img/InterfazGame/Miniaturas/Hemorragia/Hemorragia0.png",
+            "img/InterfazGame/Miniaturas/Hemorragia/Hemorragia1.png",
+            "img/InterfazGame/Miniaturas/Hemorragia/Hemorragia2.png",
+            "img/InterfazGame/Miniaturas/Hemorragia/Hemorragia3.png",
+            "img/InterfazGame/Miniaturas/Hemorragia/Hemorragia4.png"
+        ]
+    },
+    "Game3": {
+        "title": "MANIOBRAS DE EXTINCIÓN SEGÚN LA INSTALACIÓN",
+        "simutator": "#",
+        "description": "<p><strong>Asignatura:</strong> Gestión de recursos de emergencias y protección civil.</p>\n<p><strong>Unidad:</strong> Planificación y supervisión del mantenimiento de equipos, medios técnicos e instalaciones.</p>\n<p><strong>Duración aproximada:</strong> 10 minutos.</p>\n<p><strong>Dificultad:</strong> Fácil.</p>",
+        "carrusel": [
+            "img/InterfazGame/Miniaturas/Extincion/Extincion0.png",
+            "img/InterfazGame/Miniaturas/Extincion/Extincion1.png",
+            "img/InterfazGame/Miniaturas/Extincion/Extincion2.png",
+            "img/InterfazGame/Miniaturas/Extincion/Extincion3.png",
+            "img/InterfazGame/Miniaturas/Extincion/Extincion4.png"
+        ]
+    },
+    "Game4": {
+        "title": "TIPOLOGÍA Y CARACTERÍSTICAS DE LOS EPIS",
+        "simutator": "#",
+        "description": "<p><strong>Asignatura:</strong> Gestión de recursos de emergencias y protección civil.</p>\n<p><strong>Unidad:</strong> Planificación y supervisión del mantenimiento de equipos, medios técnicos e instalaciones.</p>\n<p><strong>Duración aproximada:</strong> 10 minutos.</p>\n<p><strong>Dificultad:</strong> Fácil.</p>",
+        "carrusel": [
+            "img/InterfazGame/Miniaturas/EPIS/EPIS0.png",
+            "img/InterfazGame/Miniaturas/EPIS/EPIS1.png",
+            "img/InterfazGame/Miniaturas/EPIS/EPIS2.png",
+            "img/InterfazGame/Miniaturas/EPIS/EPIS3.png",
+            "img/InterfazGame/Miniaturas/EPIS/EPIS4.png"
+        ]
+    },
+    "Game5": {
+        "title": "SEÑALIZACIÓN A HELICÓPTERO DESDE TIERRA",
+        "simutator": "#",
+        "description": "<p><strong>Asignatura:</strong> Gestión de recursos de emergencias y protección civil.</p>\n<p><strong>Unidad:</strong> Planificación y supervisión del mantenimiento de equipos, medios técnicos e instalaciones.</p>\n<p><strong>Duración aproximada:</strong> 10 minutos.</p>\n<p><strong>Dificultad:</strong> Fácil.</p>",
+        "carrusel": [
+            "img/InterfazGame/Miniaturas/Helicoptero/Helicoptero0.png",
+            "img/InterfazGame/Miniaturas/Helicoptero/Helicoptero1.png",
+            "img/InterfazGame/Miniaturas/Helicoptero/Helicoptero2.png",
+            "img/InterfazGame/Miniaturas/Helicoptero/Helicoptero3.png",
+            "img/InterfazGame/Miniaturas/Helicoptero/Helicoptero4.png"
+        ]
+    },
+    "Game6": {
+        "title": "RESCATE EN ASCENSOR",
+        "simutator": "#",
+        "description": "<p><strong>Asignatura:</strong> Gestión de recursos de emergencias y protección civil.</p>\n<p><strong>Unidad:</strong> Planificación y supervisión del mantenimiento de equipos, medios técnicos e instalaciones.</p>\n<p><strong>Duración aproximada:</strong> 10 minutos.</p>\n<p><strong>Dificultad:</strong> Fácil.</p>",
+        "carrusel": [
+            "img/InterfazGame/Miniaturas/Ascensor/Ascensor0.png",
+            "img/InterfazGame/Miniaturas/Ascensor/Ascensor1.png",
+            "img/InterfazGame/Miniaturas/Ascensor/Ascensor2.png",
+            "img/InterfazGame/Miniaturas/Ascensor/Ascensor3.png",
+            "img/InterfazGame/Miniaturas/Ascensor/Ascensor4.png"
+        ]
+    }
 }

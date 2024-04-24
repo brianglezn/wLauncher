@@ -1,0 +1,20 @@
+{
+    "Game1": {
+        "title": "EMBARQUE Y DESEMBARQUE EN HELICÓPTERO",
+        "simutator": "#",
+        "description": "<p><strong>Asignatura:</strong> Gestión de recursos de emergencias y protección civil.</p>\\n<p><strong>Unidad:</strong> Planificación y supervisión del mantenimiento de equipos, medios técnicos e instalaciones.</p>\\n<p><strong>Duración aproximada:</strong> 10 minutos.</p>\\n<p><strong>Dificultad:</strong> Fácil.</p>",
+        "carrusel": [
+            "img/InterfazHome/HomeButton0.png",
+            "img/InterfazHome/HomeButton1.png",
+            "img/InterfazHome/HomeButton2.png",
+            "img/InterfazHome/HomeButton3.png",
+            "img/InterfazHome/HomeButton4.png",
+            "img/InterfazHome/HomeButton5.png"
+        ]
+    },
+    "Game2": {},
+    "Game3": {},
+    "Game4": {},
+    "Game5": {},
+    "Game6": {}
+}

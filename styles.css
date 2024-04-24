@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+header {
+    background-color: #134c8f;
+    padding: 20px 0;
+    height: 10vh;
+    cursor: pointer;
+}
+
+header img {
+    margin-left: 30px;
+}
+
+.content {
+    height: auto;
+    min-height: 83vh;
+    background-color: #b6e1f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . ."
+        ". . .";
+    margin: 0 30px;
+}
+
+.home img {
+    width: 100%;
+    height: auto;
+    max-height: 280px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.home img:hover {
+    transform: scale(1.1);
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+}
+
+.game h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.simulator {
+    width: 700px;
+    height: 400px;
+    background-color: rgb(13, 147, 46);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.simulator i {
+    color: white;
+    font-size: 45px;
+}
+
+.carrusel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carrusel img {
+    height: auto;
+    max-height: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.carrusel img:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #134c8f;
+    padding: 20px 0;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer i {
+    color: white;
+    font-size: 25px;
+}

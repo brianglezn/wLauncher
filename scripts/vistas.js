@@ -1,10 +1,11 @@
+// Espera a que todo el contenido del DOM esté completamente cargado antes de ejecutar el código.
 document.addEventListener('DOMContentLoaded', function () {
-    // Seleccionar elementos por id
+    // Obtiene el elemento del DOM necesarios
     var homeIcon = document.getElementById('homeIcon');
     var homeSection = document.getElementById('homeSection');
     var gameSection = document.getElementById('gameSection');
 
-    // Función para alternar la visibilidad de las secciones
+    // Función que alterna la visibilidad de las secciones de inicio y juegos.
     function toggleSections() {
         if (homeSection.style.display === 'none') {
             homeSection.style.display = 'grid';
@@ -12,14 +13,15 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // Evento de clic para el ícono de casa
+    // Asigna un manejador de eventos para cuando se haga clic en el icono de inicio.
     homeIcon.addEventListener('click', toggleSections);
 
-    // Seleccionar todos los botones de la sección .home
+    // Selecciona todos los botones dentro de la sección de inicio.
     var homeButtons = document.querySelectorAll('.homeBtn img');
 
-    // Añadir evento de clic a cada botón para cambiar a la sección .game
+    // Itera sobre cada botón dentro de la sección de inicio.
     homeButtons.forEach(function (btn) {
+        // Asigna un manejador de eventos para cuando se haga clic en cada botón.
         btn.addEventListener('click', function () {
             homeSection.style.display = 'none';
             gameSection.style.display = 'flex';

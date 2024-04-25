@@ -6,14 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3bba849b7b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
-    <script src="scripts/vistas.js"></script>
-    <script src="scripts/games.js"></script>
     <title>wLauncher</title>
 </head>
 
 <body>
     <header class="header">
-        <a><img src="img/InterfazHome/HeaderWebUniversae.png" alt="logo universae" id="homeIcon"></a>
+        <img src="img/InterfazHome/HeaderWebUniversae.png" alt="logo universae" id="homeIcon">
     </header>
     <div class="content">
         <section class="home" id="homeSection">
@@ -35,11 +33,23 @@
                 <p><strong>Dificultad:</strong> Fácil.</p>
             </div>
             <div class="carrusel">
-                <img src="img/InterfazGame/Miniaturas/Embarque/Embarque0.png" alt="">
-                <img src="img/InterfazGame/Miniaturas/Embarque/Embarque1.png" alt="">
-                <img src="img/InterfazGame/Miniaturas/Embarque/Embarque2.png" alt="">
-                <img src="img/InterfazGame/Miniaturas/Embarque/Embarque3.png" alt="">
+                <img src="" alt="fotoGame0">
+                <img src="" alt="fotoGame1">
+                <img src="" alt="fotoGame2">
+                <img src="" alt="fotoGame3">
+                <img src="" alt="fotoGame4">
             </div>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn"><i class="fa-solid fa-xmark"></i></span>
+                    <div class="modal-carrusel">
+                        <span class="arrow-btn arrow-left"><i class="fa-solid fa-chevron-left"></i></span>
+                        <img src="" alt="modalPhoto">
+                        <span class="arrow-btn arrow-right"><i class="fa-solid fa-chevron-right"></i></span>
+                    </div>
+                </div>
+            </div>
+
         </section>
     </div>
     <footer class="footer">
@@ -59,7 +69,8 @@
                 class="fab fa-x-twitter"></i></a>
         <a href="https://universae.com" target="_blank" class="social-link"><i class="fab fa-google"></i></a>
     </footer>
-
+    <script src="scripts/vistas.js"></script>
+    <script src="scripts/games.js"></script>
 </body>
 
 </html>

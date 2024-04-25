@@ -10,17 +10,22 @@
 
 body {
     font-family: "Rubik", sans-serif;
+    background-color: #f4f4f4;
 }
 
 header {
     background-color: #134c8f;
     padding: 20px 0;
     height: 10vh;
-    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
 }
 
 header img {
     margin-left: 30px;
+    width: auto;
+    cursor: pointer;
 }
 
 .content {
@@ -61,47 +66,98 @@ header img {
 .game {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 30px;
     width: 80%;
+    gap: 30px;
 }
 
 .game h2 {
     text-transform: uppercase;
+    text-align: center;
     font-size: 40px;
+    margin-top: 30px;
 }
 
-.simulator {
+.game .simulator {
     width: 700px;
-    height: 400px;
-    background-color: rgb(13, 147, 46);
+    height: 350px;
+    background-color: rgb(8, 98, 31);
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.simulator i {
+.game .simulator i {
     color: white;
     font-size: 45px;
 }
 
-.carrusel {
+.game .carrusel {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
-.carrusel img {
+.game .carrusel img {
     height: auto;
-    max-height: 150px;
+    max-height: 120px;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
 
-.carrusel img:hover {
+.game .carrusel img:hover {
     transform: scale(1.1);
+}
+
+.game .modal {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+
+.game .modal-content {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.game .modal-content .close-btn {
+    text-align: right;
+}
+
+.game .modal-carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game span {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.game .arrow-btn i {
+    font-size: 50px;
+}
+
+.game span:hover,
+.game span:focus {
+    color: #ffffff;
+    cursor: pointer;
 }
 
 .footer {
@@ -117,4 +173,78 @@ header img {
 .footer i {
     color: white;
     font-size: 25px;
+}
+
+@media (max-width: 768px) {
+    .home {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-auto-columns: 1fr;
+        gap: 20px 20px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            ". ."
+            ". ."
+            ". .";
+        margin: 30px;
+    }
+
+    .home img {
+        width: 100%;
+        height: 230px;
+        max-height: 280px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .game .modal-carrusel img {
+        height: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        justify-content: center;
+    }
+
+    .home {
+        grid-auto-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 15px 0px;
+        grid-template-areas:
+            "."
+            "."
+            "."
+            "."
+            "."
+            ".";
+        margin: 30px;
+    }
+
+    .home img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .game h2 {
+        font-size: 20px;
+    }
+
+    .game .simulator {
+        width: 95%;
+        height: 200px;
+    }
+
+    .game .modal-carrusel img {
+        height: 160px;
+    }
+
+    .game .arrow-btn i {
+        font-size: 30px;
+    }
+
+    .footer i {
+        font-size: 20px;
+    }
 }

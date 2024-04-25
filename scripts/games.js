@@ -45,7 +45,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // Selecciona los elementos necesarios para el modal.
     const modal = document.getElementById('modal');
     const modalImage = document.querySelector('.modal-carrusel img');
-    const closeButton = document.querySelector('.close-btn');
     const leftArrow = document.querySelector('.arrow-left');
     const rightArrow = document.querySelector('.arrow-right');
 
@@ -81,7 +80,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    closeButton.addEventListener('click', closeModal, true); // Evento para cerrar el modal con el botón de cierre.
     rightArrow.addEventListener('click', showNextImage); // Evento para navegar a la siguiente imagen.
     leftArrow.addEventListener('click', showPreviousImage); // Evento para navegar a la imagen anterior.
 

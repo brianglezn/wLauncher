@@ -16,7 +16,7 @@ body {
 header {
     background-color: #134c8f;
     padding: 20px 0;
-    height: 10vh;
+    min-height: 10vh;
     display: flex;
     align-items: center;
     justify-content: flex-start
@@ -78,11 +78,9 @@ header img {
     margin-top: 30px;
 }
 
-.game .simulator {
-    width: 700px;
-    height: 350px;
-    background-color: rgb(8, 98, 31);
-    border-radius: 20px;
+.game .simulator iframe {
+    width: 800px;
+    height: 640px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,10 +128,6 @@ header img {
     padding: 20px;
     display: flex;
     flex-direction: column;
-}
-
-.game .modal-content .close-btn {
-    text-align: right;
 }
 
 .game .modal-carrusel {
@@ -197,8 +191,19 @@ header img {
         transition: transform 0.3s ease;
     }
 
+    .game .simulator {
+        width: 100%;
+    }
+
+    .game .simulator iframe {
+        width: 100%;
+        height: 640px;
+    }
+
     .game .modal-carrusel img {
-        height: 350px;
+        width: 80%;
+        height: auto;
+        max-height: 20vh;
     }
 }
 
@@ -232,8 +237,7 @@ header img {
     }
 
     .game .simulator {
-        width: 95%;
-        height: 200px;
+        display: none;
     }
 
     .game .modal-carrusel img {
